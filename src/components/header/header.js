@@ -7,7 +7,7 @@ import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { createStructuredSelector } from 'reselect';
 import { selectCartHidden } from '../../redux/cart/cart-selectors';
 import { selectCurrentUser } from '../../redux/user/user-selectors';
-import { HeaderContainer, LogoContainer, OptionsContainer, OptionsDiv, OptionsLink } from './header-styles';
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionsLink } from './header-styles';
 
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
